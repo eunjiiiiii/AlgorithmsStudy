@@ -7,7 +7,7 @@ def numIsland(grid) -> int:
 
 
     def dfs(i, j):
-        if (i < 0 or i>=len(grid)) or(j < 0 or j >= len(grid[0])) or (grid[i][j] != '1'):
+        if (i < 0 or i >= len(grid)) or(j < 0 or j >= len(grid[0])) or (grid[i][j] != '1'):
             return # 종료
 
         grid[i][j] = 0 # 여기로 넘어왔다는 뜻은 육지라는 뜻이므로(== grid[i][j] == '1') 검사한 좌표는 0으로 바꾸기
