@@ -12,7 +12,7 @@ num = []
 res = 0
 
 def dfs(x, y):
-    # 탈출 조건
+    # 탈출 조건 : 재귀이기 때문에 탈출 조건 걸어야 함!!!
     if x < 0 or x >= n or y < 0 or y >= n:
         return False
 
