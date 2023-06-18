@@ -28,7 +28,6 @@ def solution(arr):
     return answer
 
 
-
 if __name__ == "__main__":
     arr = [1,2,3,3,3,4,4]
     print(solution(arr))
